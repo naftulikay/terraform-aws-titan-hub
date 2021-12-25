@@ -1,6 +1,14 @@
 # Titan Hub Module - Inherited Variables
 
 # See the Titan Network Module for documentation
+variable addtl_tags {
+  type = map(string)
+  default = {}
+  description = <<-EOF
+    Additional tags to apply to all resources.
+  EOF
+}
+
 variable domain {}
 
 variable domain_name_servers {
