@@ -2,6 +2,7 @@
 
 # See the Titan Network Module for documentation
 output account_id { value = module.network.account_id }
+output addtl_tags { value = module.network.addtl_tags }
 output admin_cidr_blocks { value = module.network.admin_cidr_blocks }
 output admin_ipv6_cidr_block_association_ids { value = module.network.admin_ipv6_cidr_block_association_ids }
 output admin_ipv6_cidr_blocks { value = module.network.admin_ipv6_cidr_blocks }
@@ -83,6 +84,7 @@ output public_route_table_ids { value = module.network.public_route_table_ids }
 output public_subnet_ids { value = module.network.public_subnet_ids }
 output public_zone_id { value = module.network.public_zone_id }
 output region { value = module.network.region }
+output resource_tags { value = module.network.resource_tags }
 output reverse_zone_id { value = module.network.reverse_zone_id }
 output reverse_zone { value = module.network.reverse_zone }
 output routing_cidr_blocks { value = module.network.routing_cidr_blocks }
